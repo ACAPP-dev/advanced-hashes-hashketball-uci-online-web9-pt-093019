@@ -224,7 +224,7 @@ def big_shoe_rebounds()
          # binding.pry
          player_shoe[player[:player_name]] = [player[:shoe], player[:rebounds]]
          end
-         binding.pry
+         
          shoe_big = player_shoe.select {|player, value| player[value][0].max}
          
         
