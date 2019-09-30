@@ -228,9 +228,9 @@ def big_shoe_rebounds()
          end
          
          big_shoe = player_shoe.key(player_shoe.values.max)
-         
+          binding.pry
          final_result = player[big_shoe][:rebounds]
-         binding.pry
+        
         
       end
     end
