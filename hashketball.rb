@@ -228,9 +228,11 @@ def big_shoe_rebounds()
          end
          
          big_shoe = player_shoe.key(player_shoe.values.max)
+          
+          value.each do |player|
           binding.pry
          final_result = player[big_shoe][:rebounds]
-        
+          end
         
       end
     end
