@@ -222,7 +222,7 @@ def big_shoe_rebounds()
       if key == :players
         value.each do |player|
          # binding.pry
-         player_shoe = {player[:player_name] => {player[:shoe], player[:rebounds]}
+         player_shoe = {player[:player_name] => [player[:shoe], player[:rebounds]]
          binding.pry
          player_shoe.select |player, value|
          
