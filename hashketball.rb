@@ -228,6 +228,7 @@ def big_shoe_rebounds()
       binding.pry
       if key == :players
         value.each do |player|
+          binding.pry
          player_shoe = {:test => "data"}
          
         end
