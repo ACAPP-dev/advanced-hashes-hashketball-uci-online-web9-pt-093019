@@ -216,6 +216,7 @@ end
 
 def big_shoe_rebounds()
   player_shoe = {}
+  player_rebound = {}
   game_hash.each do |team_home_or_away, team_hash|
     team_hash.each do |key, value|
      
@@ -223,15 +224,15 @@ def big_shoe_rebounds()
         value.each do |player|
          # binding.pry
          player_shoe[player[:player_name]] = player[:shoe]
+         player_rebound[player[:player_name] = player[:rebounds]
          #, player[:rebounds]]
          #binding.pry
          end
          
          big_shoe = player_shoe.key(player_shoe.values.max)
           
-          value.each do |player|
+         final_result = player_rebound[big_shoe][:rebounds]
           binding.pry
-         final_result = player[big_shoe][:rebounds]
           end
         
       end
