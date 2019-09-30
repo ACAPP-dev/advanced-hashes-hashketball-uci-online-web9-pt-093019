@@ -227,7 +227,7 @@ def big_shoe_rebounds()
          #binding.pry
          end
          
-         player_shoe.select {|name, value| value <10}
+         player_shoe.key()
          binding.pry
         
       end
