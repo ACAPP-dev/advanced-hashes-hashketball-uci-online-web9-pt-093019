@@ -224,10 +224,11 @@ def big_shoe_rebounds()
          # binding.pry
          player_shoe[player[:player_name]] = player[:shoe]
          #, player[:rebounds]]
+         binding.pry
          end
          
          player_shoe.select {|name, value| value >10}
-         binding.pry
+         
         
       end
     end
