@@ -221,9 +221,9 @@ def big_shoe_rebounds()
      
       if key == :players
         value.each do |player|
-          binding.pry
-         player_shoe = {value[:player] => player[:shoe]}
          
+         player_shoe = {value[:player] => player[:shoe]}
+          binding.pry
         end
       end
     end
