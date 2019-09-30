@@ -222,10 +222,11 @@ def big_shoe_rebounds()
       if key == :players
         value.each do |player|
          # binding.pry
-         player_shoe[player[:player_name]] = [player[:shoe], player[:rebounds]]
+         player_shoe[player[:player_name]] => player[:shoe]
+         #, player[:rebounds]]
          end
          
-         shoe_big = player_shoe.select {|player, value| value == player[value][0].max}
+         shoe_big = player_shoe.select {|player, value| value == player[value].max}
          binding.pry
         
       end
