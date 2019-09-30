@@ -226,7 +226,7 @@ def big_shoe_rebounds()
          #, player[:rebounds]]
          end
          
-         player_shoe.select {|name, value| value == player_shoe.max}
+         player_shoe.select {|name, value| value >10}
          binding.pry
         
       end
