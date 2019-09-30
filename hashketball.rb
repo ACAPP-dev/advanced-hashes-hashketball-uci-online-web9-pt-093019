@@ -224,7 +224,7 @@ end
 def big_shoe_rebounds()
   player_shoe = {}
   game_hash.each do |team_home_or_away, team_hash|
-    team_hash.each do |key, value|
+    #team_hash.each do |key, value|
       binding.pry
       #if key == :players
         #value.each do |player|
@@ -233,7 +233,7 @@ def big_shoe_rebounds()
          
         #end
       #end
-    end
+    #end
   end
   return player_shoe
 end
