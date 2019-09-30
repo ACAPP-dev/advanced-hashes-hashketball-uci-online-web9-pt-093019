@@ -214,22 +214,22 @@ def player_stats (player_name)
   return player_stats
 end
 
-#def big_shoe_rebounds()
-  #player_shoe = {}
-  #game_hash.each do |team_home_or_away, team_hash|
-    #team_hash.each do |key, value|
-      #binding.pry
-      #if key == :players
-        #value.each do |player|
-          #binding.pry
-         #player_shoe = {:test => "data"}
+def big_shoe_rebounds()
+  player_shoe = {}
+  game_hash.each do |team_home_or_away, team_hash|
+    team_hash.each do |key, value|
+     
+      if key == :players
+        value.each do |player|
+          binding.pry
+         player_shoe = {:test => "data"}
          
-        #end
-      #end
-    #end
-  #end
-  #return player_shoe
-#end
+        end
+      end
+    end
+  end
+  return player_shoe
+end
 
   
 
