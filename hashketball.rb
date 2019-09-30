@@ -234,7 +234,7 @@ def big_shoe_rebounds()
            binding.pry
          final_result = player_rebound[big_shoe]
          
-          
+         return final_result 
         
       end
     end
