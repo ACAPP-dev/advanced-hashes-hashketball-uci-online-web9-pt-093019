@@ -223,8 +223,9 @@ def big_shoe_rebounds()
         value.each do |player|
          # binding.pry
          player_shoe = {player[:player_name] => {player[:shoe], player[:rebounds]}
-         player_shoe.select |player, value|
          binding.pry
+         player_shoe.select |player, value|
+         
         end
       end
     end
